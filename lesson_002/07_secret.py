@@ -20,6 +20,14 @@ secret_message = [
 #
 # Требуется задать конкретные индексы, например secret_message[3][12:23:4]
 # Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
-
-print(secret_message[0][3],secret_message[1][10:13],secret_message[2][6:15:1])
-
+q = ''
+q = secret_message[0][3]
+print(q)
+q = secret_message[1][9:13]
+print(q)
+q = secret_message[2][5:15:2]
+print(q)
+q = secret_message[3][12:6:-1]
+print(q)
+q = secret_message[4][20:15:-1]
+print(q)
